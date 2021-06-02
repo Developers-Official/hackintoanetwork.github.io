@@ -21,7 +21,7 @@
 */
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
+  font-family: "fontawesome";
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -55,7 +55,6 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-calendar:before { content: '\e800'; } /* '' */
-.icon-github-circled:before { content: '\f09b'; } /* '' */
-.icon-twitter-squared:before { content: '\f304'; } /* '' */
-.fab_fa-instagram-square:before { content: '\e055'; } /* '' */
+.fab fa-github:before { content: '\f09b'; }
+.fab fa-twitter-square:before { content: '\f081'; } 
+.fab fa-instagram-square:before { content: '\e055'; } 
