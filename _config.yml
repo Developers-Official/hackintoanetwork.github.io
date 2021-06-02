@@ -25,7 +25,7 @@ texture:
   showNav: true
   navigation:
   - title: Home
-    url: ""
+    url: "/"
   - title: Posts
     url: "/posts"
 
