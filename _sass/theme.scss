@@ -3,7 +3,7 @@
 @import 'begin';
 @import 'syntax';
 
-$linkColor: #000;
+$linkColor: #999;
 $mobileW: 768px;
 $smallMobileW: 480px;
 $bigScreenW: 1600px;
@@ -151,11 +151,11 @@ header {
 }
 
 .post-title {
-	color: #000;
+	color: #;
 	transition: color .3s ease;
 	margin: .1em 0;
 	&:hover {
-		color: #000;
+		color: $gray;
 		border-bottom: 0;
 	}
 }
@@ -229,12 +229,13 @@ header {
 	top: 0;
 	right: 5vw;
 	a {
-		color: #fff;
+		color: inherit;
 	}
 	ul {
 		list-style-type: none;
 		li {
 			// background-color: #ff9f1c;
+			border: 1px solid #fff;
 			float: left;
 			// margin: 5px;
 			&:not(:first-child){
