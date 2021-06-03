@@ -21,6 +21,7 @@ texture:
   theme: texture
   style: black
   showPicker: false
+  analytics_id: 'hackintoanetwork'
   show_excerpts: true
   showNav: true
   navigation:
