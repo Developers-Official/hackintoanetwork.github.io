@@ -2,7 +2,7 @@
 layout: post
 title:  "TEST-02"
 description: TEST
-date:   2021-06-01 00:00:00
+date:   2021-06-02 00:00:00
 categories: TEST
 ---
 TEST-02
