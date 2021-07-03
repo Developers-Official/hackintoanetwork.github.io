@@ -15,7 +15,7 @@ sass:
 permalink: /posts/:title/
 texture:
   title: hackintoanetwork
-  tagline: Developer. Hacker
+  tagline: Security Lab
   date_format: "%b %-d, %Y"
   remote_theme: samarsault/texture
   theme: texture
