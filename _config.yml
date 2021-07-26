@@ -28,7 +28,7 @@ texture:
   - title: Home
     url: "/"
   - title: Posts
-    url: "/posts"
+    url: "/"
 
   
 
