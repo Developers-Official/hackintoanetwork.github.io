@@ -1,6 +1,6 @@
 input[id="menuicon"] {display:none;} 
 input[id="menuicon"] + label {display:block; margin:30px; width:60px; height:40px; position:fixed; right:0; top:calc(10% -20px); cursor:pointer; transition:all .35s;}
-input[id="menuicon"] + label span {display:block; position:static; width: 100%; height:5px; border-radius:30px; background:#fff; transition:all .35s;}
+input[id="menuicon"] + label span {display:block; position:fixed; width: 100%; height:5px; border-radius:30px; background:#fff; transition:all .35s;}
 input[id="menuicon"] +label span:nth-child(1) {top:0;}
 input[id="menuicon"] +label span:nth-child(2) {top:50%;transform:translateY(-50%);}
 input[id="menuicon"] +label span:nth-child(3) {bottom:0;}
