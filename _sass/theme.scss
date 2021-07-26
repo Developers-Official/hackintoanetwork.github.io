@@ -224,31 +224,19 @@ header {
 }
 
 .navbar {
-	display: flex;
-	position: absolute;
-	top: 0;
-	right: 5vw;
-	a {
-		color: inherit;
-	}
-	ul {
-		list-style-type: none;
-		li {
-			// background-color: #ff9f1c;
-			float: left;
-			// margin: 5px;
-			&:not(:first-child){
-				border-left: 0;
-			}
-			padding: 10px 25px;
-			// border-radius: 4px;
-			@include fluidType(15px, 17px);
-			transition: background-color .3s ease-in;
-			&:hover {
-				background-color: rgba(#fff, 0.15);
-				cursor: pointer;
-			}
-		}
-	}
+	input[id="menuicon"] {display:none;} 
+	input[id="menuicon"] + label {display:block; margin:30px; width:60px; height:40px; position:fixed; right:0; cursor:pointer; transition:all .35s;}
+	input[id="menuicon"] + label span {display:block; position:absolute; width: 100%; height:5px; border-radius:30px; background:#000; transition:all .35s;}
+	input[id="menuicon"] +label span:nth-child(1) {top:0;}
+	input[id="menuicon"] +label span:nth-child(2) {top:50%;transform:translateY(-50%);}
+	input[id="menuicon"] +label span:nth-child(3) {bottom:0;}
+	input[id="menuicon"]:checked +label {z-index:2;}
+	input[id="menuicon"]:checked +label span {background:#fff;}
+	input[id="menuicon"]:checked +label span:nth-child(1) {top:50%;transform:translateY(-50%) rotate(50deg);}
+	input[id="menuicon"]:checked +label span:nth-child(2) {opacity:0;}
+	input[id="menuicon"]:checked +label span:nth-child(3) {bottom:50%;transform:translateY(50%) rotate(-45deg);}
+
+	div[class="sidebar"] {width:300px;height:100%;background:#222;position:fixed;top:0; right:-300px;z-index:1;transition:all .35s;}
+	input[id="menuicon"]:checked +label + div {right:0;}
 }
 
