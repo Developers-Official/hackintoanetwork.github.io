@@ -1,0 +1,17 @@
+input[id="menuicon"] {display:none;} 
+input[id="menuicon"] + label {display:block; margin:20px; width:24px; height:22px; position:absolute; right:0; top: 0px; cursor:pointer; transition:all .35s;}
+input[id="menuicon"] + label span {display:block; position:absolute; width: 100%; height: 3px; border-radius: 60px; background:#000; transition:all .35s;}
+input[id="menuicon"] +label span:nth-child(1) {top:0;}
+input[id="menuicon"] +label span:nth-child(2) {top:50%;transform:translateY(-50%);}
+input[id="menuicon"]:checked +label {z-index:2;}
+input[id="menuicon"]:checked +label span {background:#fff;}
+input[id="menuicon"]:checked +label span:nth-child(1) {top:50%;transform:translateY(-50%) rotate(50deg);}
+input[id="menuicon"]:checked +label span:nth-child(2) {top:50%;transform:translateY(-50%) rotate(-50deg);}
+
+div[class="sidebar"] {width:300px;height:100%;background:#000;position:fixed;top:0; right:-300px;z-index:1;transition:all .35s;}
+input[id="menuicon"]:checked +label + div {right:0;}
+
+.sidebar >ul {margin:20px;}
+.sidebar > ul >li {border-bottom:1px solid #ccc;list-style:none;}
+.sidebar >ul > li > a {display:inline-block;width:auto;color:#fff;padding:10px;margin:10px;background: #000;}
+.sidebar label[for*='sidebar']{position:absolute;top:0;left:0;width:100%;height:100%;z-index:-1;}
