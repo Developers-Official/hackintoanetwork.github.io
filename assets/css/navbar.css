@@ -4,7 +4,7 @@ input[id="menuicon"] + label span {display:block; position:absolute; width: 100%
 input[id="menuicon"] +label span:nth-child(1) {top:0;}
 input[id="menuicon"] +label span:nth-child(2) {top:50%;transform:translateY(-50%);}
 input[id="menuicon"]:checked +label {z-index:2;}
-input[id="menuicon"]:checked +label span {background:#fff; position:fixed;}
+input[id="menuicon"]:checked +label span {background:#fff;}
 input[id="menuicon"]:checked +label span:nth-child(1) {top:50%;transform:translateY(-50%) rotate(50deg);}
 input[id="menuicon"]:checked +label span:nth-child(2) {top:50%;transform:translateY(-50%) rotate(-50deg);}
 
@@ -14,6 +14,4 @@ input[id="menuicon"]:checked +label + div {right:0;}
 .sidebar >ul {margin:20px;}
 .sidebar > ul >li {border-bottom:1px solid #ccc;list-style:none;}
 .sidebar >ul > li > a {display:inline-block;width:auto;color:#fff;padding:10px;margin:10px;background: #000;}
-.sidebar label[for*='sidebar']{position: absolute;top:0;left:0;width:100%;height:100%;z-index:-1;}
-
-.backgroud {position: fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.8);transition:all .35s;opacity:0;wisibility:hidden;z-index:1;}
+.sidebar label[for*='sidebar']{position:absolute;top:0;left:0;width:100%;height:100%;z-index:-1;}
