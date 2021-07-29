@@ -21,7 +21,7 @@ texture:
   showPicker: false
   analytics_id: '198541497'
   show_excerpts: true
-  showNav: False
+  showNav: true
 
 
 
