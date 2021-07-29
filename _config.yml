@@ -23,12 +23,8 @@ texture:
   showPicker: false
   analytics_id: '198541497'
   show_excerpts: true
-  showNav: true
-  navigation:
-  - title: Home
-    url: "/"
-  - title: Posts
-    url: "/"
+  showNav: False
+
 
   
 
