@@ -8,7 +8,7 @@ input[id="menuicon"]:checked +label span {background:#fff;}
 input[id="menuicon"]:checked +label span:nth-child(1) {top:50%;transform:translateY(-50%) rotate(50deg);}
 input[id="menuicon"]:checked +label span:nth-child(2) {top:50%;transform:translateY(-50%) rotate(-50deg);}
 
-div[class="sidebar"] {width:200px;height:100%;background:#000;position:fixed;top:0; right:-200px;z-index:1;transition:all .35s;}
+div[class="sidebar"] {width:200px;height:100%;background:#000;position:absolute;top:0; right:-200px;z-index:1;transition:all .35s;}
 input[id="menuicon"]:checked +label + div {right:0;}
 
 *{
