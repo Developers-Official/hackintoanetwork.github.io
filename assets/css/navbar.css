@@ -15,7 +15,7 @@ input[id="menuicon"]:checked +label + div {right:0;}
   font-size: 20px;
   color: white;
   text-align: center;
-  line-height: 60px;
+  line-height: 10px;
   background: #000;
   user-select: none;
 }
