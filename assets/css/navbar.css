@@ -20,6 +20,7 @@ input[id="menuicon"]:checked +label + div {right:0;}
   font-size: 20px;
   color: white;
   padding-left: 40px;
+  text-decoration-line: none;
   box-sizing: vorder-box;
   border-top: 1px solid rgba(255,255,255,.1);
   border-bottom: 1px solid black;
