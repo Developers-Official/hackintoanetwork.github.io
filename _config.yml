@@ -17,7 +17,7 @@ texture:
   date_format: "%b %-d, %Y"
   remote_theme: samarsault/texture
   theme: texture
-  style: black
+  style: blue
   showPicker: false
   analytics_id: '198541497'
   show_excerpts: true
