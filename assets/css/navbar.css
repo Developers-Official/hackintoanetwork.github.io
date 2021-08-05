@@ -77,3 +77,5 @@ label.logo {
   visibility:hidden;
   z-index:1;
 }
+input#menuicon:checked ~ .sidebar {right:0;}
+input#menuicon:checked ~ .background-black {opacity:1; visibility:visible;}
