@@ -5,13 +5,13 @@ description: Wi-Fi Deauthentication Attack.
 date:   2021-08-12 03:038:36 +0530
 categories: Network Hacking
 ---
-**Deauthentication Attack**은 사용자와 Wi-Fi 무선 액세스 포인트 간의 통신을 대상으로 하는 서비스 거부 공격(Dos attack)의 일종이고,   
-
 **Deauthentication Attack**은 **Deauthentication frame**을 지속적으로 전송함으로써 **AP**와 **Station** 간의 **연결을 강제로 해제**시키는 공격이다.  
 
  여기서, **공유기를 AP(Access Point)**라고 하고 **공유기에 연결되는 장치들을 Station**이라고 한다.  
 
+또한 **Deauthentication Attack**은 사용자와 Wi-Fi 무선 액세스 포인트 간의 통신을 대상으로 하는 서비스 거부 공격(Dos attack)의 일종이다.  
 
+​    
 
 ![](https://github.com/hackintoanetwork/hackintoanetwork.github.io/blob/main/_posts/img/Deauthentication%20Attack-Post-01/Post-01-img%201.PNG?raw=true)
 
@@ -19,7 +19,7 @@ categories: Network Hacking
 
 AP와 3개의 장치들이 연결되어 있고 공격자는 무선랜카드를 통하여 무선 통신망의 통신 상황을 살펴보고 있다.  
 
-
+​    
 
 ![](https://github.com/hackintoanetwork/hackintoanetwork.github.io/blob/main/_posts/img/Deauthentication%20Attack-Post-01/Post-01-img%202.PNG?raw=true)
 
@@ -29,7 +29,7 @@ AP와 3개의 장치들이 연결되어 있고 공격자는 무선랜카드를 �
 
 (브로드캐스팅(broadcasting)은 송신 호스트가 전송한 데이터가 네트워크에 연결된 모든 호스트에 전송되는 방식을 의미한다.)  
 
-
+​    
 
 ![](https://github.com/hackintoanetwork/hackintoanetwork.github.io/blob/main/_posts/img/Deauthentication%20Attack-Post-01/Post-01-img%203.PNG?raw=true)
 
