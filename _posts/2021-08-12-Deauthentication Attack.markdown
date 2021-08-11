@@ -160,7 +160,7 @@ AP와 연결 시 **문제**가 **발생**하는 모습을 볼 수 있다. **성�
 
 ​    
 
-**WPA 4-Way Handshake****를 스니핑에 성공한다면 공격자는**무차별 대입 공격 (BruteForce Attack)**또는**사전 기반 WPA 암호 크래킹 공격 (Dictionany Attack)**을 **수행하여 무선 AP**의 **패스워드**를 **크랙** 할 수 있을 것이다.  
+**WPA 4-Way Handshake**를 스니핑에 성공한다면 공격자는**무차별 대입 공격 (BruteForce Attack)**또는 **사전 기반 WPA 암호 크래킹 공격 (Dictionany Attack)**을 **수행하여 무선 AP**의 **패스워드**를 **크랙** 할 수 있을 것이다.  
 
 ​    
 
