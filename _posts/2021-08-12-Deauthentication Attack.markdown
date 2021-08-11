@@ -5,8 +5,7 @@ description: Wi-Fi Deauthentication Attack.
 date:   2021-08-12 03:038:36 +0530
 categories: Network Hacking
 ---
-A Wi-Fi deauthentication attack is a type of denial-of-service attack that targets communication between a user and a Wi-Fi wireless access point.
---------------------------------------------------------------------------------------------------------------------------------------------------
+A Wi-Fi deauthentication attack is a type of denial-of-service attack that targets communication between a user and a Wi-Fi wireless access point.    
 
 
 **Deauthentication Attack**은 사용자와 Wi-Fi 무선 액세스 포인트 간의 통신을 대상으로 하는 서비스 거부 공격(Dos attack)의 일종이고,   
@@ -19,7 +18,7 @@ A Wi-Fi deauthentication attack is a type of denial-of-service attack that targe
 
 ![](https://github.com/hackintoanetwork/hackintoanetwork.github.io/blob/main/_posts/img/Deauthentication%20Attack-Post-01/Post-01-img%201.PNG?raw=true)
 
-**[그림 1] deauthentication attack 수행 이전의 무선망 상황**  
+**[그림 1] 공격 수행 이전의 무선망 상황**  
 
 AP와 3개의 장치들이 연결되어 있고 공격자는 무선랜카드를 통하여 무선 통신망의 통신 상황을 살펴보고 있다.  
 
@@ -27,7 +26,7 @@ AP와 3개의 장치들이 연결되어 있고 공격자는 무선랜카드를 �
 
 ![](https://github.com/hackintoanetwork/hackintoanetwork.github.io/blob/main/_posts/img/Deauthentication%20Attack-Post-01/Post-01-img%202.PNG?raw=true)
 
-**[그림 2] deauthentication attack 수행**  
+**[그림 2] 공격 수행**  
 
 공격자는 AP를 가장한 Deauthentication frame을 반복적으로 *브로드캐스팅하여 공격을 수행한다.*  
 
@@ -93,7 +92,7 @@ MDK3, Void11, Scapy 및 Zulu 소프트웨어도 **Deauthentication Attack**을 �
 
 ![](https://github.com/hackintoanetwork/hackintoanetwork.github.io/blob/main/_posts/img/Deauthentication%20Attack-Post-01/Post-01-img%206.png?raw=true)
 
-**[그림 6] Deauthentication Attack 수행 모습**  
+**[그림 6] 공격 수행 모습**  
 
 ```aireplay-ng --deauth 100 –a 00:26:66:66:29:A8 wlan0```  
 
