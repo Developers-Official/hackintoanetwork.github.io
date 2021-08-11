@@ -5,7 +5,7 @@ description: Wi-Fi Deauthentication Attack.
 date:   2021-08-12 03:038:36 +0530
 categories: Network Hacking
 ---
-A Wi-Fi deauthentication attack is a type of denial-of-service attack that targets communication between a user and a Wi-Fi wireless access point.
+### **A Wi-Fi deauthentication attack is a type of denial-of-service attack that targets communication between a user and a Wi-Fi wireless access point.**
 
 
 
