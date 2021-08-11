@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Deaut Attack"
+title:  "Deauth Attack"
 description: Wi-Fi Deauthentication Attack.
 date:   2021-08-12 03:038:36 +0530
 categories: Network Hacking
