@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Coding Post"
-description: An example post which shows code rendering.
+title:  "Deauthentication Attack"
+description: Wi-Fi Deauthentication Attack.
 date:   2019-05-23 21:03:36 +0530
-categories: Javascript NodeJS
+categories: Network Hacking
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+Deauthentication Attack은 사용자와 Wi-Fi 무선 액세스 포인트 간의 통신을 대상으로 하는 서비스 거부 공격(Dos attack)의 일종이고, Deauthentication Attack은 Deauthentication frame을 지속적으로 전송함으로써 AP와 Station 간의 연결을 강제로 해제시키는 공격이다. 여기서, 공유기를 AP(Access Point)라고 하고 공유기에 연결되는 장치들을 Station이라고 한다.
 
 ```javascript
 const express = require('express')
