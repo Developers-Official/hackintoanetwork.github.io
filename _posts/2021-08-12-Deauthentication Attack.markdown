@@ -68,9 +68,9 @@ MDK3, Void11, Scapy 및 Zulu 소프트웨어도 **Deauthentication Attack**을 �
 
 ​    
 
-랜카드는 **ALFA Network Inc.**사의 **AWUS1900** 모델을 사용하였고  
+무선 랜카드는 **ALFA Network Inc.**사의 **AWUS1900** 모델을 사용하였고  
 
-해당 **랜카드의 칩셋**은 **Realtek RTL8814AU**로 <u>모니터 모드를 정식으로 지원하는 모델은 아니지만</u>,   
+해당 **무선 랜카드의 칩셋**은 **Realtek RTL8814AU**로 <u>모니터 모드를 정식으로 지원하는 모델은 아니지만</u>,   
 
 패치를 통해 **모니터 모드**와 **패킷 인젝션**을 가능하게 하였다.  
 
