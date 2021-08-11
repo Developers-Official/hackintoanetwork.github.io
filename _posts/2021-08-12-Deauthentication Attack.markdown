@@ -7,7 +7,11 @@ categories: Network Hacking
 ---
 **Deauthentication Attack**은 **Deauthentication frame**을 지속적으로 전송함으로써 **AP**와 **Station** 간의 **연결을 강제로 해제**시키는 공격이다.  
 
- 여기서, **공유기를 AP(Access Point)**라고 하고 **공유기에 연결되는 장치들을 Station**이라고 한다.  
+​    
+
+여기서, **공유기를 AP(Access Point)**라고 하고 **공유기에 연결되는 장치들을 Station**이라고 한다.  
+
+​    
 
 또한 **Deauthentication Attack**은 사용자와 Wi-Fi 무선 액세스 포인트 간의 통신을 대상으로 하는 서비스 거부 공격(Dos attack)의 일종이다.  
 
