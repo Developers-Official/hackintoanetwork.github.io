@@ -54,6 +54,9 @@ AP와 3개의 장치들이 연결되어 있고 공격자는 무선랜카드를 �
 ​    
 
 **aircrack-ng**의 포함된 툴 **Aireplay-ng**는 한 줄 명령을 실행하여 Deauthentication Attack을 실행할 수 있다.  
+
+​    
+
 MDK3, Void11, Scapy 및 Zulu 소프트웨어도 **Deauthentication Attack**을 탑재할 수 있지만 편의를 위해  
 **Aireplay-ng**을 이용하여 실습을 해보겠다.  
 
