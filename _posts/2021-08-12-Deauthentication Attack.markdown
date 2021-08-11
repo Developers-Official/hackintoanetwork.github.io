@@ -43,11 +43,11 @@ AP와 3개의 장치들이 연결되어 있고 공격자는 무선랜카드를 �
 
 여기까지는 deauthentication attack이 이루어지는 과정이었고,  
 
- 
+​    
 
 ### 이제 공격 진행 과정을 실습을 통하여 살펴보겠다.  
 
-
+​    
 
 **aircrack-ng**의 포함된 툴 **Aireplay-ng**는 한 줄 명령을 실행하여 Deauthentication Attack을 실행할 수 있다.  
 MDK3, Void11, Scapy 및 Zulu 소프트웨어도 **Deauthentication Attack**을 탑재할 수 있지만 편의를 위해  
@@ -67,8 +67,9 @@ MDK3, Void11, Scapy 및 Zulu 소프트웨어도 **Deauthentication Attack**을 �
 
 패치를 통해 **모니터 모드**와 **패킷 인젝션**을 가능하게 하였다.  
 
+​    
 
-
+​    
 
 
 ![](https://github.com/hackintoanetwork/hackintoanetwork.github.io/blob/main/_posts/img/Deauthentication%20Attack-Post-01/Post-01-img%204.PNG?raw=true)
@@ -79,6 +80,9 @@ MDK3, Void11, Scapy 및 Zulu 소프트웨어도 **Deauthentication Attack**을 �
 airodump-ng wlan0
 ```  
 
+​    
+
+​    
 
 
 ![](https://github.com/hackintoanetwork/hackintoanetwork.github.io/blob/main/_posts/img/Deauthentication%20Attack-Post-01/Post-01-img%205.PNG?raw=true)
@@ -89,6 +93,9 @@ airodump-ng wlan0
 airodump-ng --bssid 00:26:66:66:29:A8 –c 13 wlan0
 ```  
 
+​    
+
+​    
 
 
 ![](https://github.com/hackintoanetwork/hackintoanetwork.github.io/blob/main/_posts/img/Deauthentication%20Attack-Post-01/Post-01-img%206.png?raw=true)
@@ -101,10 +108,11 @@ aireplay-ng --deauth 100 –a 00:26:66:66:29:A8 wlan0
 
 해당 공격을 통하여 AP에 연결된 station들은 강제적으로 연결이 해제된다.   
 
-**station은 재연결을 시도**하겠지만 **Deauthentication frame**이 지속적으로 수신되기 때문에 **재연결을 포기하고 연결이 해제**되게 된다.   
+**station은 재연결을 시도**하겠지만 **Deauthentication frame**이 지속적으로 수신되기 때문에 **재연결을 포기하고 연결이 해제**되게 된다.  
 
+​    
 
-
+​    
 
 
 ![](https://github.com/hackintoanetwork/hackintoanetwork.github.io/blob/main/_posts/img/Deauthentication%20Attack-Post-01/Post-01-img%207.jpg?raw=true)
@@ -117,9 +125,9 @@ AP와 연결 시 **문제**가 **발생**하는 모습을 볼 수 있다. **성�
 
 ​    
 
-## **Deauthentication Attack의 활용**  
+### **Deauthentication Attack의 활용**  
 
-
+​    
 
 ### **Evil twin 공격 (Evil twin access points)**  
 
