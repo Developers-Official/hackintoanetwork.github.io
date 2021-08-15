@@ -13,7 +13,7 @@ Deauthentication Attack은 Deauthentication frame을 지속적으로 전송함�
 
 ​    
 
-또한 **Deauthentication Attack**은 사용자와 Wi-Fi 무선 액세스 포인트 간의 통신을 대상으로 하는 **서비스 거부 공격 (Dos attack)**의 일종이다.  
+또한 **Deauthentication Attack**은 사용자와 Wi-Fi 무선 AP 간의 통신을 대상으로 하는 **서비스 거부 공격 (Dos attack)**의 일종이다.  
 
 ​    
 
