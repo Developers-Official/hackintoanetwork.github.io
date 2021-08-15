@@ -2,7 +2,7 @@
 layout: post
 title:  "Deauth Attack"
 description: Wi-Fi Deauthentication Attack.
-date:   2021-08-12 03:038:36 +0530
+date:   2021-08-12 03:38:36 +0530
 categories: Network Hacking
 ---
 Deauthentication Attack은 Deauthentication frame을 지속적으로 전송함으로써 AP와 Station 간의 연결을 강제로 해제 시키는 공격이다.
