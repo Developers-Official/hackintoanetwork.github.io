@@ -43,6 +43,7 @@ h1 {
 }
 
 h2 {
+	font-family: 'Nunito Sans', sans-serif;
 	font-weight: bold;
 	@include fluidType(28px, 32px);
 }
