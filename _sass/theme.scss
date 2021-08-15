@@ -195,8 +195,7 @@ header {
 	list-style-type: none;
 	padding: 0;
 	>li {
-		--font-primary: 'Fira Sans', sans-serif;
-		--font-secondary: 'Libre Baskerville', serif;
+		font-family: 'Libre Baskerville', serif;
 		margin-bottom: 30px;
 		padding-bottom: 20px;
 		&:not(:last-child) {
