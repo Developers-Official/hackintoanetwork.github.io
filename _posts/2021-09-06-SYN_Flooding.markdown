@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "SYN Flooding"
-description: [DOS/DDOS] SYN Flooding.
-date:   2021-09-6 03:21:36 +0530
+description: Dos/DDOS SYN Flooding.
+date:   2021-09-06 03:38:36 +0530
 categories: Network Hacking
 ---
 SYN Flooding 공격은 TCP의 연결 과정인 3-way Handshake 문제점을 악용하는 것이다.
