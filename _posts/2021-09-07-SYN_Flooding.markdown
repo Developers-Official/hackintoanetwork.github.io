@@ -111,9 +111,9 @@ tcp_max_syn_backlog 파일을 통해 현재 서버의 백로그큐 값을 확인
 
 ```
 cat /proc/sys/net/ipv4/tcp_max_syn_backlog
-```
 
-```
+​    
+
 1024
 ```
 
