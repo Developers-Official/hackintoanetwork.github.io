@@ -9,7 +9,7 @@ SYN Flooding 공격은 TCP의 연결 과정인 3-way Handshake 문제점을 악�
 
 
 
-![](C:\Users\xox04\Desktop\hackintoanetwork.github.io-main\_posts\img\SYN-Flooding-02\3-way-handshake.png)
+![](..\_posts\img\SYN-Flooding-02\3-way-handshake.png)
 
 **[사진 1] TCP 3-way Handshake (TCP 연결 절차)**
 
@@ -45,7 +45,7 @@ SYN Flooding 공격은 TCP의 연결 과정인 3-way Handshake 문제점을 악�
 
 
 
-![](C:\Users\xox04\Desktop\hackintoanetwork.github.io-main\_posts\img\SYN-Flooding-02\hping3.PNG)
+![](..\_posts\img\SYN-Flooding-02\hping3.PNG)
 
 **[그림 2] 공격 수행**
 
@@ -63,7 +63,7 @@ SYN Flooding 공격은 TCP의 연결 과정인 3-way Handshake 문제점을 악�
 
 
 
-![](C:\Users\xox04\Desktop\hackintoanetwork.github.io-main\_posts\img\SYN-Flooding-02\SYN-Flag.PNG)
+![](..\_posts\img\SYN-Flooding-02\SYN-Flag.PNG)
 
 **[그림 3]  Wireshark 패킷 확인**
 
