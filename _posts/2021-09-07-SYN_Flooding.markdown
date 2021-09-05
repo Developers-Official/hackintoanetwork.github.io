@@ -69,7 +69,7 @@ SYN Flooding 공격은 TCP의 연결 과정인 3-way Handshake 문제점을 악�
 **[그림 2] 공격 수행**
 
 ```
-sudo hping3 -S -a 192.168.0.12 192.168.0.2 -p 80 --flood
+# sudo hping3 -S -a 192.168.0.12 192.168.0.2 -p 80 --flood
 ```
 
 -S : SYN Flag로 설정
@@ -110,7 +110,7 @@ Wireshark를 통해 확인해보면 80번 Port로 SYN Flag를 무수히 보낸 �
 tcp_max_syn_backlog 파일을 통해 현재 서버의 백로그큐 값을 확인
 
 ```
-cat /proc/sys/net/ipv4/tcp_max_syn_backlog
+# cat /proc/sys/net/ipv4/tcp_max_syn_backlog
 
 ​    
 
@@ -119,7 +119,9 @@ cat /proc/sys/net/ipv4/tcp_max_syn_backlog
 
 1024 보다 작으면 아래 명령어로 1024 이상으로 설정해줍니다.
 
-```sysctl -w net.ipv4.tcp_max_syn_backlog=1024```
+```
+# sysctl -w net.ipv4.tcp_max_syn_backlog=1024
+```
 
 ​    
 
@@ -142,7 +144,7 @@ syn 빈도가 많으면 무시해버린다.
 tcp_syncookies의 값을 0으로 바꾼다.
 
 ```
-echo "0" > /proc/sys/net/ipv4/tcp_syncookies
+# echo "0" > /proc/sys/net/ipv4/tcp_syncookies
 ```
 
 ​    
