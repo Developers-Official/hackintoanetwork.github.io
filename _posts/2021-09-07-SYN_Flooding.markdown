@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SYN Flooding"
-description: Dos/DDOS SYN Flooding.
+description: DDOS/DOS SYN Flooding.
 date:   2021-09-07 03:38:36 +0530
 categories: Network Hacking
 ---
