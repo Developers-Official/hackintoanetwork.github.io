@@ -1,5 +1,5 @@
 # hackintoanetwork.github.io
-# hackintoanetwork.com
+# https://hackintoanetwork.com
 
 This blog is a study journal of a high school student whose dream is to become an security professional.
 
