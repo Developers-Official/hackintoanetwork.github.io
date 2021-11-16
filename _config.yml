@@ -30,8 +30,3 @@ texture:
     github:  hackintoanetwork
     instagram: hackintoanetwork
     rss: rss
- 
-
-
-plugins:
-  - jekyll-seo-tag
